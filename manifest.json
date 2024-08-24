@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "InfinitePixlr",
+    "version": "1.0",
+    "description": "Gives infinite pixlr saves",
+    "background": {
+      "scripts": ["src/main.js"]
+    },
+    "browser_action": {
+      "default_icon": "icons/icon.jpg"
+    },
+    "permissions": ["activeTab"],
+    "icons": {
+      "48": "icons/icon.jpg"
+    }
+  }
+  
